@@ -1,4 +1,4 @@
-package com.deepexi.support.feign;
+package com.jingwu.support.feign;
 
 import feign.FeignException;
 import feign.Response;
@@ -23,6 +23,8 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
+ * @author 菁芜
+ * @since 2021/7/26 - 10:40
  * @deprecated use {@link AbstractPayloadDecoder} instead.
  */
 public class PayloadDecoder extends SpringDecoder {

@@ -1,4 +1,4 @@
-package com.deepexi.support.feign;
+package com.jingwu.support.feign;
 
 import feign.FeignException;
 import feign.Response;
@@ -14,6 +14,10 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.WildcardType;
 
+/**
+ * @author 菁芜
+ * @since 2021/7/26 - 10:40
+ */
 public abstract class AbstractPayloadDecoder<T extends Payload> extends SpringDecoder {
 
     private ObjectFactory<HttpMessageConverters> messageConverters;

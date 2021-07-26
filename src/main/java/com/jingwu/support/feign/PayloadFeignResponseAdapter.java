@@ -1,4 +1,4 @@
-package com.deepexi.support.feign;
+package com.jingwu.support.feign;
 
 import feign.Response;
 import org.springframework.http.HttpHeaders;
@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Map;
 
+/**
+ * @author 菁芜
+ * @since 2021/7/26 - 10:40
+ */
 public class PayloadFeignResponseAdapter implements ClientHttpResponse {
 
     private final Response response;

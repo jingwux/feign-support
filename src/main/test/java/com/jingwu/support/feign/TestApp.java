@@ -1,4 +1,4 @@
-package com.deepexi.support.feign;
+package com.jingwu.support.feign;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;

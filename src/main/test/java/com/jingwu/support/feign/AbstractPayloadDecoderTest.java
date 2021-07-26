@@ -1,4 +1,4 @@
-package com.deepexi.support.feign;
+package com.jingwu.support.feign;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -25,6 +25,10 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8_VALUE;
 
+/**
+ * @author 菁芜
+ * @since 2021/7/26 - 10:41
+ */
 @Slf4j
 @SpringBootTest(classes = TestApp.class)
 @RunWith(SpringRunner.class)

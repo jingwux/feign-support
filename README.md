@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.com/jingwux/feign-support.svg?branch=master)](https://travis-ci.com/jingwux/feign-support)
 [![codecov](https://codecov.io/gh/jingwux/feign-support/branch/master/graph/badge.svg?token=83I3RFWUTU)](https://codecov.io/gh/jingwux/feign-support)
+
 一系列支持 Feign 相关的组件，包括：
 
-- Feign远程调用结果解码工具（AbstractPayloadDecoder）
+- Feign 远程调用结果解码工具（AbstractPayloadDecoder）
 - ...
 
 [CHANGELOG](./CHANGELOG.md)
@@ -82,3 +83,7 @@ class Configuration {
 }
 ```
 
+
+## TODO
+- 处理不同响应状态下不同的数据结构
+- 响应异常处理
